@@ -1,0 +1,124 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+.main
+{
+	height:700px;
+	width:100%;
+	background: linear-gradient(#0c2e47,#88a4b2);
+	border-top:2px solid #0c2e47;
+}
+.container
+{
+	height:450px;
+	width:70% !important;
+	margin-top:0px;
+	background:#FFF ;
+	border:2px solid #78A9A4;
+	margin:0 auto;
+	margin-top:30px;
+	border:solid 1px #666666;
+	box-sizing:border-box;
+}
+
+         /* navigation */
+.nav
+{
+width:100%;
+height:30px;
+margin-top:30px;
+}
+.nav ul{
+list-style-type:none;	
+}
+.nav ul li{
+float:left;
+padding:0px 85px;	
+}
+ul li a
+{
+	color:#88a4b2;
+	text-decoration:none;
+}
+        /* table */
+table
+{
+	margin:0 auto !important;
+	height:350px;
+	width:80%;
+}
+label, table
+{
+	color:#0c2e47;
+}
+input[type=password],input[type=email],input[type=number]
+{
+	height:30px;
+	width:200px;
+}
+input[type=text]
+{
+	height:30px;
+	width:350px;
+}
+select
+{
+	height:30px;
+	width:150px;
+}
+
+#logout,#edit
+{ 
+    text-decoration:none;
+	color:#0c2e47;
+	margin-left:90%;
+}
+#welcome
+{
+	color:#FFF;
+	margin-top:30px;
+}
+#next,#update
+{
+	height:40px;
+	width:80px;
+	background-color:#0c2e47;
+	color:#88a4b2;
+}
+#next
+{
+	margin-left:80%;
+}
+
+               /* profile image */
+.images
+{
+	height:200px;
+	width:200px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	border:solid 1px #333333;
+	margin:5%;
+}
+#imgview
+{
+	border:solid 1px #FFFFFF;
+	box-sizing:border-box;
+} 
+                  /* profile info on profile.php */
+.info
+{
+	height:350px;
+	width:65%;
+	margin-top:-32%;
+	float:right;
+}
+.info p
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	line-height:2;
+}
+

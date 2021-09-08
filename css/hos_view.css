@@ -1,0 +1,114 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+.main        /* main div/ background div*/
+{
+	width:100%;
+	height:1100px;
+	border-top:1px solid #FFF;
+}
+.container_map_formaddr         /*div containing map, form data and address*/
+{
+	margin:0 auto;
+	height:1000px;
+	width:90%;
+}
+.map                           /* div containing map*/
+{
+	height:300px;
+	width:100%;
+	background-color:#828fa8;
+	margin-top:50px;
+}
+.container_form_addr              /* div containing form & address*/
+{
+	height:600px;
+	width:100%;
+	margin-top:100px;
+}
+.left_form                          /*div containing form*/
+{
+	width:65%;
+	height:600px;
+	float:left;
+}
+#c,#d,#e,#f                           /* form input ids and table data*/
+{
+    height:40px;
+	width:45%;
+	border:1px solid #d4d9e9;
+	font-size: 18px;
+	background-color:#e5f0fb;	
+}
+#d,#f
+{
+	margin-left:5%;
+}
+#g
+{
+      height: 180px;
+	  width:96%;
+	  border:1px solid #d4d9e9;
+	  font-size: 18px;
+	  background-color:#e5f0fb;
+}
+#button
+{
+	margin-top: 35px;
+    padding: 0 25px;
+    line-height: 50px;
+    background: #0186d5;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+}
+#left
+{
+	text-transform: uppercase;
+	font-weight: bold;
+    line-height: 1;
+	color: #4a525d;
+}
+#right1
+{
+	text-transform: uppercase;
+	margin-left:39%;
+	font-weight: bold;
+    line-height: 1;
+	color: #4a525d;
+}
+#right2
+{
+	text-transform: uppercase;
+	margin-left:34%;
+	font-weight: bold;
+    line-height: 1;
+	color: #4a525d;
+}
+
+
+.right_address            /*div containing address*/
+{
+	width:33%;
+	height:500px;
+	float:right;
+}
+.addr
+{
+	margin-top:70px;
+	height:130px;
+	width:70%;
+}
+h2                          /*left and right headings of form and address*/
+{
+	font-weight: bold;
+    line-height: 1;
+    margin: 0 0 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ebf0f5;
+	text-transform:uppercase;
+}

@@ -1,0 +1,159 @@
+*{
+	margin:0px;
+	padding:0px;
+	}
+
+	
+								
+
+				/*  registration  form*/
+.register{
+	height:700px;
+	width:100%;
+	}
+.register .row{
+	height:60px;
+	width:100%;
+	background-color: rgba(139, 172, 30, 0.5);
+	}
+.row h2{
+	color:#FFF;
+	padding:10px 100px;
+	font-size: 39px;
+	font-weight:inherit;
+	font-family:"MS Serif", "New York", serif;
+		text-align:center;
+	}
+.register .row_tag{
+	height:40px;
+	width:100%;
+	background-color: rgba(183, 57, 72, 0.5);;
+	}
+.row_tag h3{
+	color:#FFF;
+	padding:10px 100px;
+	font-weight:inherit;
+	font-family:"MS Serif", "New York", serif;
+	text-align:center;
+	}
+.form_container{
+	background-color: #c54554;
+border-color: #c54554;
+color: #ffffff;
+	height:600px;
+	width:100%;
+	}
+.form{
+	height:530px;
+	width:40%;
+	background:#b73948;
+	padding-left:50px;
+	margin:0 auto;}
+.form h2{
+	color:#FFF;
+	padding-top:30px;
+	font-weight:inherit;
+	font-family:"MS Serif", "New York", serif;
+	}
+.form .username input[type=text],.hosname input[type=text],.password input[type=password],.address input[type=text]{
+	margin-top:20px;
+	height:30px;
+	width:400px;
+	background:#E9E9E9;
+	padding-left:20px;
+	border-radius: 18px;
+	border:1px solid #FFF;
+	}
+ input[type=file]
+{
+	height:30px;
+}
+.form .img input[type=file]{
+	height:30px;
+	width:200px;
+	background:#E9E9E9;
+	padding-left:20px;
+	border-radius: 18px;
+	border:1px solid #FFF;
+	margin-top:20px;
+	float:left;
+	}
+.form .type, .city{
+	margin:20px 20px;
+	height:30px;
+	width:120px;
+	background:#E9E9E9;
+	border-radius: 18px;
+	border:1px solid #FFF;
+	float:left;}
+.form .type,.city,select{
+	height:30px;
+	width:100px;
+	background:#E9E9E9;
+	border-radius: 18px;
+	border:1px solid #FFF;
+	}
+.form .number input[type=number]{
+	height:30px;
+	width:400px;
+	background:#E9E9E9;
+	padding-left:20px;
+	border-radius: 18px;
+	border:1px solid #FFF;
+}
+.form .email input[type=email]{
+	height:30px;
+	width:400px;
+	background:#E9E9E9;
+	padding-left:20px;
+	border-radius: 18px;
+	border:1px solid #FFF;
+	margin-top:20px;}
+.form .img input[type=file]{
+	height:30px;
+	width:200px;
+	background:#E9E9E9;
+	padding-left:20px;
+	border-radius: 18px;
+	border:1px solid #FFF;
+	margin-top:20px;}
+.form .msg{
+	height:50px;
+	width:420px;
+	background:#E9E9E9;
+	border-radius: 18px;
+	border:1px solid #FFF;
+	margin-top:20px;}
+.form .msg textarea{
+	height:50px;
+	width:400px;
+	padding-left:20px;
+	background:#E9E9E9;
+	border-radius: 18px;
+	border:1px solid #FFF;
+}
+.form .button{
+	height:30px;
+	width:200px;
+	background:#9cc222;
+border-color: transparent;
+color: #ffffff !important;
+	border-radius: 18px;
+	border:1px solid #FFF;
+	margin-top:20px;}
+
+.form .button input[type=submit]{
+	height:30px;
+	width:200px;
+	background:#9cc222;
+border-color: transparent;
+color: #ffffff !important;
+	border-radius: 18px;
+	border:1px solid #FFF;
+	font-weight:700;
+	}
+.form_container a
+{
+	color:#3F3;
+	margin-left:57%;
+}
