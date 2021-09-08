@@ -1,0 +1,136 @@
+*{
+	margin:0px;
+	padding:0px;
+	}
+
+						/*back bar*/
+.navigation_bar {
+	height:80px;
+	width:100%;
+font-family: Lato;
+opacity: 1;
+color: #7184a5;
+background-color: #ffffff;
+position:fixed;
+z-index: 999;
+}
+.nav_container {
+	margin:0 auto;
+	height:80px;
+	width:90%;
+	background-color:none;
+	
+	
+}
+.header {
+width:100%;
+height:50px;
+padding: 15px 0;
+line-height: 20px;
+font-weight: 300;
+}	
+.logo{
+	width:20%;
+	float:left;
+	background:none;
+	}
+.nav{
+	float:left;
+ width:65%;
+	}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFF;
+	font-family: Karla;
+}
+
+li {
+    float: left;
+    display: inline-block;
+    color:#7184a5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size:18px;}
+li a{
+	text-decoration:none;
+	color:#88B1F7;
+}
+
+li:hover {background:none;
+color:#88B1F7;
+ }
+
+.view_blog{
+	height:auto;
+	width:100%;
+	background:#FFF;
+	padding-top:80px;
+	}
+.pregnancy_image{
+     height:250px;
+	width:100%;
+	background:url(images/banner_pregnancy.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin:0 auto;
+		}
+.banner_image{
+     height:250px;
+	width:100%;
+	background:url(images/weight_banner.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin:0 auto;
+		}
+.fitness_image{
+	height:250px;
+	width:100%;
+	background:url(images/banner_fitness.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin-top:0px;}
+.overlay{
+	background:#000;
+	z-index:999;
+	height:250px;
+	width:100%;
+	opacity:0.5;}
+.view_blog h1{
+	color:#6CB6FF;
+	font-weight:700;
+	text-align:center;
+	}
+.blog_body{
+	height:400px;
+	width:70%;
+	background:#e5f0fb;
+	margin:0 auto;
+	margin-top:50px;
+	box-shadow:1px 1px 5px #096;
+	}
+.blog_body .blog_left{
+	height:400px;
+	width:30%;
+	background:none;
+	float:left;
+	color:#666;}
+.blog_left img{
+	margin-left:50px;
+	margin-top:50px;
+	border-radius:20px;
+	}
+.blog_body .blog_right{
+	height:400px;
+	width:60%;
+	background:none;
+	float:left;
+	padding-top:40px;
+	font-size:18px;
+	color:#333;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align:justify;
+	}	
